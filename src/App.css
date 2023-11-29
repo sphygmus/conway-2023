@@ -9,6 +9,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+	background: #1e1e1e;
 	border-bottom: 1px solid #333;
 	padding: 8px;
 	gap: 0.5em 2em;

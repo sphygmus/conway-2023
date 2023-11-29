@@ -160,7 +160,7 @@ function App() {
 		}
 
 		window.addEventListener("resize", resizeWindow);
-		resizeWindow();
+		setTimeout(resizeWindow, 500);
 
 		if (!gameRef.current)
 			gameRef.current = new Game(canvasRef.current!);
